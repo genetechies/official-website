@@ -1,0 +1,65 @@
+Log created: 2025-04-05 12:34:02
+Type: backup
+[2025-04-05 12:34:03][notice]Start backing up.
+[2025-04-05 12:34:03][notice]server info fcgi:Off max execution time: 300 wp version:6.7.2 php version:8.1.31 db version:10.11.11 php ini:safe_mode: memory_limit:512M memory_get_usage:60.72 MB memory_get_peak_usage:62.29 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2025-04-05 12:34:03][notice]Prepare to backup backup_db files.
+[2025-04-05 12:34:03][notice]Start exporting database.
+[2025-04-05 12:34:03][notice]Preparing to dump table wp_actionscheduler_claims
+[2025-04-05 12:34:03][notice]Preparing to dump table wp_actionscheduler_groups
+[2025-04-05 12:34:03][notice]Preparing to dump table wp_links
+[2025-04-05 12:34:03][notice]Preparing to dump table wp_term_relationships
+[2025-04-05 12:34:03][notice]Preparing to dump table wp_actionscheduler_logs
+[2025-04-05 12:34:03][notice]Preparing to dump table wp_commentmeta
+[2025-04-05 12:34:03][notice]Preparing to dump table wp_suremails_email_log
+[2025-04-05 12:34:03][notice]Preparing to dump table wp_term_taxonomy
+[2025-04-05 12:34:03][notice]Preparing to dump table wp_termmeta
+[2025-04-05 12:34:03][notice]Preparing to dump table wp_terms
+[2025-04-05 12:34:03][notice]Preparing to dump table wp_usermeta
+[2025-04-05 12:34:03][notice]Preparing to dump table wp_srfm_entries
+[2025-04-05 12:34:03][notice]Preparing to dump table wp_users
+[2025-04-05 12:34:03][notice]Preparing to dump table wp_comments
+[2025-04-05 12:34:03][notice]Preparing to dump table wp_actionscheduler_actions
+[2025-04-05 12:34:03][notice]Preparing to dump table wp_posts
+[2025-04-05 12:34:03][notice]Preparing to dump table wp_postmeta
+[2025-04-05 12:34:03][notice]Preparing to dump table wp_options
+[2025-04-05 12:34:03][notice]Exporting database finished.
+[2025-04-05 12:34:03][notice]Start compressing database
+[2025-04-05 12:34:03][notice]Prepare to zip file. file: dreamwhisper-dubuque-i63f.zipwp.top_wpvivid-871418aa21a28_2025-04-05-12-34_backup_db.sql
+[2025-04-05 12:34:03][notice]Adding zip files completed.dreamwhisper-dubuque-i63f.zipwp.top_wpvivid-871418aa21a28_2025-04-05-12-34_backup_db.part001.zip, filesize: 161.01 KB
+[2025-04-05 12:34:03][notice]Compressing database completed
+[2025-04-05 12:34:03][notice]Backing up backup_db completed.
+[2025-04-05 12:34:03][notice]Prepare to backup backup_themes files.
+[2025-04-05 12:34:03][notice]Compressing zip file:dreamwhisper-dubuque-i63f.zipwp.top_wpvivid-871418aa21a28_2025-04-05-12-34_backup_themes.part001.zip index:1172
+[2025-04-05 12:34:05][notice]Compressing zip file:dreamwhisper-dubuque-i63f.zipwp.top_wpvivid-871418aa21a28_2025-04-05-12-34_backup_themes.part001.zip success. index:1172 file size:18.47 MB
+[2025-04-05 12:34:05][notice]Backing up backup_themes completed.
+[2025-04-05 12:34:05][notice]Prepare to backup backup_plugin files.
+[2025-04-05 12:34:05][notice]Compressing zip file:dreamwhisper-dubuque-i63f.zipwp.top_wpvivid-871418aa21a28_2025-04-05-12-34_backup_plugin.part001.zip index:2534
+[2025-04-05 12:34:07][notice]Compressing zip file:dreamwhisper-dubuque-i63f.zipwp.top_wpvivid-871418aa21a28_2025-04-05-12-34_backup_plugin.part001.zip success. index:2534 file size:17.07 MB
+[2025-04-05 12:34:08][notice]Backing up backup_plugin completed.
+[2025-04-05 12:34:08][notice]Prepare to backup backup_uploads files.
+[2025-04-05 12:34:08][notice]Compressing zip file:dreamwhisper-dubuque-i63f.zipwp.top_wpvivid-871418aa21a28_2025-04-05-12-34_backup_uploads.part001.zip index:181
+[2025-04-05 12:34:08][notice]Compressing zip file:dreamwhisper-dubuque-i63f.zipwp.top_wpvivid-871418aa21a28_2025-04-05-12-34_backup_uploads.part001.zip success. index:181 file size:9.49 MB
+[2025-04-05 12:34:08][notice]Backing up backup_uploads completed.
+[2025-04-05 12:34:08][notice]Prepare to backup backup_content files.
+[2025-04-05 12:34:09][notice]Compressing zip file:dreamwhisper-dubuque-i63f.zipwp.top_wpvivid-871418aa21a28_2025-04-05-12-34_backup_content.part001.zip index:139
+[2025-04-05 12:34:09][notice]Compressing zip file:dreamwhisper-dubuque-i63f.zipwp.top_wpvivid-871418aa21a28_2025-04-05-12-34_backup_content.part001.zip success. index:139 file size:3.11 MB
+[2025-04-05 12:34:09][notice]Backing up backup_content completed.
+[2025-04-05 12:34:09][notice]Prepare to backup backup_core files.
+[2025-04-05 12:34:09][notice]Compressing zip file:dreamwhisper-dubuque-i63f.zipwp.top_wpvivid-871418aa21a28_2025-04-05-12-34_backup_core.part001.zip index:2794
+[2025-04-05 12:34:13][notice]Compressing zip file:dreamwhisper-dubuque-i63f.zipwp.top_wpvivid-871418aa21a28_2025-04-05-12-34_backup_core.part001.zip success. index:2794 file size:14.35 MB
+[2025-04-05 12:34:13][notice]Backing up backup_core completed.
+[2025-04-05 12:34:13][notice]Prepare to backup backup_merge files.
+[2025-04-05 12:34:13][notice]Prepare to zip file. file: dreamwhisper-dubuque-i63f.zipwp.top_wpvivid-871418aa21a28_2025-04-05-12-34_backup_db.zip
+[2025-04-05 12:34:13][notice]Adding zip files completed.dreamwhisper-dubuque-i63f.zipwp.top_wpvivid-871418aa21a28_2025-04-05-12-34_backup_all.part001.zip, filesize: 154.50 KB
+[2025-04-05 12:34:13][notice]Prepare to zip file. file: dreamwhisper-dubuque-i63f.zipwp.top_wpvivid-871418aa21a28_2025-04-05-12-34_backup_themes.zip
+[2025-04-05 12:34:14][notice]Adding zip files completed.dreamwhisper-dubuque-i63f.zipwp.top_wpvivid-871418aa21a28_2025-04-05-12-34_backup_all.part001.zip, filesize: 18.38 MB
+[2025-04-05 12:34:14][notice]Prepare to zip file. file: dreamwhisper-dubuque-i63f.zipwp.top_wpvivid-871418aa21a28_2025-04-05-12-34_backup_plugin.zip
+[2025-04-05 12:34:14][notice]Adding zip files completed.dreamwhisper-dubuque-i63f.zipwp.top_wpvivid-871418aa21a28_2025-04-05-12-34_backup_all.part001.zip, filesize: 34.85 MB
+[2025-04-05 12:34:14][notice]Prepare to zip file. file: dreamwhisper-dubuque-i63f.zipwp.top_wpvivid-871418aa21a28_2025-04-05-12-34_backup_uploads.zip
+[2025-04-05 12:34:15][notice]Adding zip files completed.dreamwhisper-dubuque-i63f.zipwp.top_wpvivid-871418aa21a28_2025-04-05-12-34_backup_all.part001.zip, filesize: 44.29 MB
+[2025-04-05 12:34:15][notice]Prepare to zip file. file: dreamwhisper-dubuque-i63f.zipwp.top_wpvivid-871418aa21a28_2025-04-05-12-34_backup_content.zip
+[2025-04-05 12:34:15][notice]Adding zip files completed.dreamwhisper-dubuque-i63f.zipwp.top_wpvivid-871418aa21a28_2025-04-05-12-34_backup_all.part001.zip, filesize: 47.37 MB
+[2025-04-05 12:34:15][notice]Prepare to zip file. file: dreamwhisper-dubuque-i63f.zipwp.top_wpvivid-871418aa21a28_2025-04-05-12-34_backup_core.zip
+[2025-04-05 12:34:16][notice]Adding zip files completed.dreamwhisper-dubuque-i63f.zipwp.top_wpvivid-871418aa21a28_2025-04-05-12-34_backup_all.part001.zip, filesize: 61.31 MB
+[2025-04-05 12:34:17][notice]Backing up backup_merge completed.
+[2025-04-05 12:34:17][notice]Backup completed.
