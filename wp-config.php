@@ -25,6 +25,8 @@
 @ini_set( 'max_input_time', '300' );
 
 
+define('WP_CACHE', true);
+define( 'WPCACHEHOME', 'D:\phpstudy_pro\WWW\wordpress\wp-content\plugins\wp-super-cache/' );
 define('WP_HOME','http://genetechies.com/');
 define('WP_SITEURL','http://genetechies.com/');
 
