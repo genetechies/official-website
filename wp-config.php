@@ -36,7 +36,15 @@ define( 'DB_NAME', 'genetechies' );
 define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'genetechies123' );
+// define( 'DB_PASSWORD', 'genetechies123' );
+if (file_exists(__DIR__ . '/wp-config-local.php')) {
+	require_once(__DIR__ . '/wp-config-local.php');
+} else {
+	// 生产环境
+	define('DB_PASSWORD', 'genetechies123');
+	define( 'WP_DEBUG', false );
+}
+	
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -95,7 +103,7 @@ $table_prefix = 'wp_';
  *
  * @link https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/
  */
-define( 'WP_DEBUG', false );
+// define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
