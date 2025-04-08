@@ -25,8 +25,8 @@
 @ini_set( 'max_input_time', '300' );
 
 
-// define('WP_HOME','http://test.com');
-// define('WP_SITEURL','http://test.com');
+define('WP_HOME','http://genetechies.com/');
+define('WP_SITEURL','http://genetechies.com/');
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
@@ -36,7 +36,7 @@ define( 'DB_NAME', 'genetechies' );
 define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'qq1788lover' );
+define( 'DB_PASSWORD', 'genetechies123' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
