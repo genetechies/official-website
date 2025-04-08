@@ -36,7 +36,7 @@ define( 'DB_NAME', 'genetechies' );
 define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'qq1788lover' );
+define( 'DB_PASSWORD', 'genetechies123' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
