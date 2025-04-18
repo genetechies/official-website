@@ -26,7 +26,7 @@
 define('FS_METHOD','direct');
 
 define('WP_CACHE', true);
-define( 'WPCACHEHOME', 'D:\phpstudy_pro\WWW\wordpress\wp-content\plugins\wp-super-cache/' );
+// define( 'WPCACHEHOME', 'D:\phpstudy_pro\WWW\wordpress\wp-content\plugins\wp-super-cache/' );
 define('WP_HOME','http://genetechies.com/');
 define('WP_SITEURL','http://genetechies.com/');
 
