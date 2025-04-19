@@ -18,18 +18,6 @@
  * @package WordPress
  */
 
-@ini_set( 'upload_max_filesize' , '400M' );
-@ini_set( 'post_max_size', '400M');
-@ini_set( 'memory_limit', '400M' );
-@ini_set( 'max_execution_time', '300' );
-@ini_set( 'max_input_time', '300' );
-define('FS_METHOD','direct');
-
-define('WP_CACHE', true);
-// define( 'WPCACHEHOME', 'D:\phpstudy_pro\WWW\wordpress\wp-content\plugins\wp-super-cache/' );
-define('WP_HOME','http://genetechies.com/');
-define('WP_SITEURL','http://genetechies.com/');
-
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'genetechies' );
@@ -38,15 +26,7 @@ define( 'DB_NAME', 'genetechies' );
 define( 'DB_USER', 'root' );
 
 /** Database password */
-// define( 'DB_PASSWORD', 'genetechies123' );
-if (file_exists(__DIR__ . '/wp-config-local.php')) {
-	require_once(__DIR__ . '/wp-config-local.php');
-} else {
-	// 生产环境
-	define('DB_PASSWORD', 'genetechies123');
-	define( 'WP_DEBUG', false );
-}
-	
+define( 'DB_PASSWORD', 'qq1788lover' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -68,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '#/c&Cy;bE_A2OV}2fn}q7G{PrvYZQga.A|xuy!,io9H(e5,bx92c[PDqS-6MRn2M' );
-define( 'SECURE_AUTH_KEY',  'CZd^:>k}JJ9}x-KH^l?7TI,[n/sT0bzd &0_AyVm|QPPS Ki.?ey={-4K/B![D(?' );
-define( 'LOGGED_IN_KEY',    'b{t>yOy@{[)Z`3b:a3@%J+NyxxV;{2mCf,;}.,Zdwo?oh>hoTT1CaAMx]16TtTt|' );
-define( 'NONCE_KEY',        'd!-F%EA`K6MP~N],#Ho84UF5h5s8mf&iMak9,4:y^iK|6zFgGK]FUi$exklVD3&Z' );
-define( 'AUTH_SALT',        'q.a},Vc5nc2Yy{p@J#mR#;A0*^`O7(*2R+#l.f08I v6#TtZ[RiCcE_fmfhgArnh' );
-define( 'SECURE_AUTH_SALT', 'F|jH0l)}SsOdXK[%A_KP70K?neygEJ3w)mP4UVNm;`T &<{#LUw@@%^$M9C&F5_c' );
-define( 'LOGGED_IN_SALT',   '/P@X?BKsb<df=I3~)Q>$CZjq1usZPAmL-j)e=CI(FVhn!=`nbN)!`#azXHt oMQl' );
-define( 'NONCE_SALT',       '~akU:~wG$3KHdF&z.g<kPN.MzPoeZxS|()4zI8o<>Nh3T@+By{J291p(bPMbpg*i' );
+define( 'AUTH_KEY',         '~UF;BZWmbVMYety5&JN*1!?u+^N_5ofu!k4GIDKsapdqk:Nb1+raF:B^9W6Dk-c=' );
+define( 'SECURE_AUTH_KEY',  'cox_WZ<c`Q{GMSYyZANDUva7Jn7k]]L{B9v!~AMNIT>f%Hl<W~Ll|fX<DdpG_oUo' );
+define( 'LOGGED_IN_KEY',    ')$D#UT&QN=4J7h:1Z=hOZ$$J.,Ps^c.{lG7`m5SDW~i)i= :tKet-}2?HsWB*dk`' );
+define( 'NONCE_KEY',        'Sy@^1qi5f0n)CFs&~[J!55Zl_G.~6E3L?:@P@>&.c@mb[rJK^:s;oP7[tIEs:$#7' );
+define( 'AUTH_SALT',        ':JMVUYZlO$Yf3M?PdV(]mcsh$=x5xrw(fj,1e@Aw^Z6O:(aU8%<q/sg(R+Bz|<O<' );
+define( 'SECURE_AUTH_SALT', 'SQ$ksO >PSC^^{+D4*.hNwo5n;D]vNYuU9lcC~Iw7Dvuk&GmKqA%,aUx$_LHL}|q' );
+define( 'LOGGED_IN_SALT',   '?E.GhMK.K<:q92U`8<D-x:RQ+UE{p%Ov)}CEF`zjH#UxGj9M_z-},Z.RqRe;d;@[' );
+define( 'NONCE_SALT',       '[YYk2haK7119tpfQn8LEb:wL`4NdqOuqQ~Fv^p *p^}|yQA<@hIon^vu&T$+3*k}' );
 
 /**#@-*/
 
@@ -105,7 +85,7 @@ $table_prefix = 'wp_';
  *
  * @link https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/
  */
-// define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
